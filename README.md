@@ -19,8 +19,7 @@ A two dice game designed using HTML, CSS, javascript and jquery. The theme is de
 - Enjoy :) 
 
 ## Thanks
-Please feel free to fork/ download the project. There are a lot of areas to improve on, including extensive testing. Help is always appreciated
-
+Please feel free to fork/ download the project and have it customized your way :) 
 Connect me on linked in : **[https://www.linkedin.com/in/pranab-bharadwaj-237887176/](https://www.linkedin.com/in/pranab-bharadwaj-237887176/)**
 
 Regards
