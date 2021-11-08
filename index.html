@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	<title>Pig-Game</title>
+	<link type="text/css" rel="stylesheet" href="resources/css/style.css"/>
+	<link href="https://fonts.googleapis.com/css?family=Lato:100,300,300i,400,400i" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Gloria+Hallelujah" rel="stylesheet">	
+	<link href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css" rel="stylesheet" type="text/css"/>
+	<!--<link type="text/css" rel="stylesheet" src="vendors/js/jquery-ui-1.12.1.custom/jquery-ui-1.12.1.custom/jquery-ui.css"/>-->
+	<script
+    src="https://code.jquery.com/jquery-3.2.1.min.js"
+  integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+  crossorigin="anonymous"></script>
+	<!--	<script type="application/javascript" src="vendors/js/jquery-ui-1.12.1.custom/jquery-ui-1.12.1.custom/jquery-ui.js"></script>	-->
+		<script type="text/javascript"	src="resources/js/script.js"></script>
+	
+<script src="https://cdn.jsdelivr.net/jquery.shadow-animation/1.11.0/jquery.animate-shadow-min.js" type="application/javascript"></script>	
+<link rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+	</head>
+	<body>
+		<audio id="keyDown" preload="auto">
+    <source src="vendors/audio/sound_ex_machina_Buttons%20-%20Glass%20Button.mp3"/>
+          </audio>
+	    <div class="container">
+			<div class="buttonPlay first"><i class="ion-ios-plus-outline"></i><span>NEW GAME</span></div>
+			<div class="player player1">
+				<div class="playerInfo">PLAYER 1<i class="ion-ionic"></i></div>
+				<div class="playeraTotalScore playerTotScr1">0</div>
+				<div class="currentScoreDiv">
+				<div class="playeraCurrentInfo">CURRENT</div>
+				<div class="playeraCurrentScore playerScr1">0</div>
+				</div>	
+			</div>
+			<div class="player player2">
+				<div class="playerInfo">PLAYER 2<i class="ion-ionic"></i></div>
+				<div class="playeraTotalScore playerTotScr2">0</div>
+				<div class="currentScoreDiv">
+				<div class="playeraCurrentInfo">CURRENT</div>
+				<div class="playeraCurrentScore playerScr2">0</div>
+				</div>	
+			</div>
+			<div class="dice"><img src="resources/images/dice-6.png" alt="dice" /></div>
+			<div class="buttonPlay second"><i class="ion-ios-loop"></i><span>ROLL DICE</span></div>
+			<div class="buttonPlay third"><i class="ion-ios-reverse-camera-outline"></i><span>HOLD</span></div>
+		</div>
+		<div class="playStartInfo">
+			<div class="playBox">
+				<label for="Player1"><i class="ion-person"></i>PLAYER <span>1</span> : </label><input type=text placeholder="Your Name" id="Player1" name="Player1">
+				<div class="OkayBox">OK</div>
+			</div>	
+			<audio id="mysoundclip" preload="auto">
+                 <source src="vendors/audio/foley_big_plasic_button_switch_press.mp3"/>
+            </audio>
+			<audio id="myerrorclip" preload="auto">
+                 <source src="vendors/audio/	noisecreations_SFX-NCFREE02_Bell-Church-Large.mp3"/>
+            </audio>
+		    <audio id="mysliderclip" preload="auto">
+                 <source src="vendors/audio/Blastwave_FX_JailCellDoorClose_HV.318.mp3"/>
+            </audio>
+            <audio id="myfadeclip" preload="auto">
+                 <source src="vendors/audio/horror_coffin_close_slowly.mp3"/>
+            </audio>
+			<audio id="diceRotate" preload="auto">
+                 <source src="vendors/audio/horror_coffin_dragged_across_floor.mp3"/>
+            </audio>
+			<audio id="canseeyou" preload="auto">
+                 <source src="vendors/audio/zapsplat_horror_voice_ghostly_says_i_can_see_you_001_12153.mp3"/>
+            </audio>
+		</div>
+		<div class="whySoSerious">
+		  <div class="seriousContent">
+			  <span class="quote">Are you Serious?</span>
+			  <div class="answer"><span class="mybutton Yes">Yes</span>
+			  <span class="mybutton No">No</span>
+			</div>
+		  </div>
+		</div>
+		<div class="overlay">
+		<div class="looser">And the Looser is <span id="lname" class="shake"></span>......<br>JOkeR: YOU sEE We make Heros and WINNERS<br>JOkeR: SOoooooo Let's put A SMILE <span class="shake">:)</span> on That face </div>
+		</div>	
+	</body>
+</html>
